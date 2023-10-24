@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/styles2.css">
+        <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
+        <title>PixOrk</title>
+    </head>
+    <body id="body-pd">
+        <div class="l-navbar" id="navbar">
+            <nav class="nav">
+                <div>
+                    <div class="nav__brand">
+                        <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+                        <a href="#" class="nav__logo">PixOrk.</a>
+                    </div>
+                    <div class="nav__list">
+                        <a href="#" class="nav__link active">
+                            <ion-icon name="home-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">inicial</span>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <ion-icon name="chatbubbles-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Destaques</span>
+                        </a>
+
+                        <div  class="nav__link collapse">
+                            <ion-icon name="folder-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Categorias</span>
+
+                            <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                            <ul class="collapse__menu">
+                                <a href="#" class="collapse__sublink">Tecnologia</a>
+                                <a href="#" class="collapse__sublink">Estágio</a>
+                                <a href="#" class="collapse__sublink">Freelancer</a>
+                            </ul>
+                        </div>
+
+                        <a href="#" class="nav__link">
+                            <ion-icon name="pie-chart-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Lançamentos</span>
+                        </a>
+                        <div class="nav__link collapse">
+                            <ion-icon name="people-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Vagas</span>
+
+                            <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                            <ul class="collapse__menu">
+                                <a href="#" class="collapse__sublink">Entrevistas</a>
+                                <a href="#" class="collapse__sublink">Benefícios</a>
+                                <a href="#" class="collapse__sublink">Contatos</a>
+                            </ul>
+                        </div>
+                        <a href="#" class="nav__link">
+                            <ion-icon name="settings-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Configurações</span>
+                        </a>
+                    </div>
+                </div>
+
+                <a href="#" class="nav__link">
+                    <ion-icon name="log-out-outline" class="nav__icon"></ion-icon>
+                    <span class="nav__name">Sair</span>
+                </a>
+            </nav>
+        </div>
+
+
+<main>
+    <section class="banner">
+        <ul id="adaptive" class="cs-hidden">
+            <li class="item-a">
+                <img src="assets/img/banner1.png" alt="">
+            </li>
+        </ul>
+    </section>
+
+    <section class="popular section bd-container" id="popular">
+        <div class="popular__content">
+            <div class="titles">
+                <span class="section-subtitle">aproveite nossos pacotes</span>
+                <h1 class="section-title">Mais populares</h1>
+            </div>
+
+            <div class="popular__shoes">
+                <article class="popular__card">
+                    <div class="popular__card__img">
+                        <img src="assets/img/fto.jpeg" alt="shoe feminino">
+                    </div>
+
+                    <div class="share">
+                        <div class="card__block">
+                            <a href="#"><i class='bx bxs-heart'></i></a>
+                        </div>
+                        <div class="card__block">
+                            <a href="#"><i class='bx bx-share-alt'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="popular__card__content">
+                        <div class="size">
+                            <div class="number">6</div>
+                            <div class="number numberOff">10</div>
+                            <div class="number numberOff">12</div>
+                        </div>
+
+                        <div class="card__desc">
+                            <h3>Fotógrafo<span>Comunicação</span></h3>
+                            <p>R$ 1700,00</p>
+                        </div>
+
+                        <div class="card__cart">
+                            <a href="#" class=" btn btn-outline">Marcar Entrevista</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__card__img">
+                        <img src="assets/img/fotp1.jpeg" alt="shoe feminino">
+                    </div>
+
+                    <div class="share">
+                        <div class="card__block">
+                            <a href="#"><i class='bx bxs-heart'></i></a>
+                        </div>
+                        <div class="card__block">
+                            <a href="#"><i class='bx bx-share-alt'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="popular__card__content">
+                        <div class="size">
+                            <div class="number numberOff">11</div>
+                            <div class="number numberOff">14</div>
+                            <div class="number">22</div>
+                        </div>
+
+                        <div class="card__desc">
+                            <h3>Engenheiro<span>Engenharia</span></h3>
+                            <p>R$ 3300,00</p>
+                        </div>
+
+                        <div class="card__cart">
+                            <a href="#" class=" btn btn-outline">Marcar Entrevista</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__card__img">
+                        <img src="assets/img/foto baby 1.jpeg" alt="shoe feminino">
+                    </div>
+
+                    <div class="share">
+                        <div class="card__block">
+                            <a href="#"><i class='bx bxs-heart'></i></a>
+                        </div>
+                        <div class="card__block">
+                            <a href="#"><i class='bx bx-share-alt'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="popular__card__content">
+                        <div class="size">
+                            <div class="number">3</div>
+                            <div class="number numberOff">7</div>
+                            <div class="number numberOff">15</div>
+                        </div>
+
+                        <div class="card__desc">
+                            <h3>Contabilidade<span>Estágio</span></h3>
+                            <p>R$ 3500,00</p>
+                        </div>
+
+                        <div class="card__cart">
+                            <a href="#" class=" btn btn-outline">Marcar Entrevista</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__card__img">
+                        <img src="assets/img/fotp3.jpg" alt="shoe feminino">
+                        <div class="block__lauch">NOVIDADE</div>
+                    </div>
+
+                    <div class="share">
+                        <div class="card__block">
+                            <a href="#"><i class='bx bxs-heart'></i></a>
+                        </div>
+                        <div class="card__block">
+                            <a href="#"><i class='bx bx-share-alt'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="popular__card__content">
+                        <div class="size">
+                            <div class="number">6</div>
+                            <div class="number">14</div>
+                            <div class="number">22</div>
+                        </div>
+
+                        <div class="card__desc">
+                            <h3>Engenheiro<span>Tecnologia</span></h3>
+                            <p>R$ 5000,00</p>
+                        </div>
+
+                        <div class="card__cart">
+                            <a href="#" class=" btn btn-outline">Marcar Entrevista</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="more">
+                <a href="#">ver mais</a>
+                <i class='bx bxs-right-arrow-alt'></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="more__shoes section bd-container" id="category">
+        <div class="titles">
+            <span class="section-subtitle">separamos por</span>
+            <h1 class="section-title">Categorias</h1>
+        </div>
+
+        <div class="more__content">
+            <div class="card__more card__more__men">
+                <img src="assets/img/fot9.jpeg" alt="men">
+                <div class="card__more__content">
+                    <h2>TECNOLOGIA</h2>
+                </div>
+            </div>
+
+            <div class="card__more card__more__women">
+                <img src="assets/img/baby.jpeg" alt="baby">
+                <div class="card__more__content">
+                    <h2>ESTÁGIO</h2>
+                </div>
+            </div>
+
+            <div class="card__more card__more__kids">
+                <img src="assets/img/comida.jpeg" alt="comercial">
+                <div class="card__more__content">
+                    <h2>FREELANCER</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bd-container" id="launch">
+        <div class="titles">
+            <span class="section-subtitle">confira nossos</span>
+            <h1 class="section-title">Lançamentos</h1>
+        </div>
+        <div class="gallery">
+            <div class="gallery__list">
+                <article class="gallery__item">
+                    <div class="gallery__img">
+                        <img src="assets/img/fotc.jpeg" alt="">
+                    </div>
+                    <div class="share">
+                        <div class="card__block">
+                            <a href="#"><i class='bx bxs-heart'></i></a>
+                        </div>
+                        <div class="card__block">
+                            <a href="#"><i class='bx bx-share-alt'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="gallery__desc">
+                        <div class="gallery__content">
+                            <h1>TELEMARKETING</h1>
+                            <span>TECNOLOGIA</span>
+                        </div>
+                        <div class="gallery__price">
+                            <p>R$ 1400,00</p>
+                        </div>
+                    </div>
+
+                    <div class="sale">
+                        <div class="size">
+                            <div class="number">8</div>
+                            <div class="number numberOff">27</div>
+                            <div class="number">14</div>
+                        </div>
+                        <button class="btn">Marcar Entrevista</button>
+                    </div>
+                </article>
+            </div>
+
+            <div class="gallery__list__right">
+                <article class="gallery__item">
+                    <div class="gallery__img">
+                        <img src="assets/img/fotf.jpeg" alt="">
+                    </div>
+                    <div class="share">
+                        <div class="card__block">
+                            <a href="#"><i class='bx bxs-heart'></i></a>
+                        </div>
+                        <div class="card__block">
+                            <a href="#"><i class='bx bx-share-alt'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="gallery__desc">
+                        <div class="gallery__content">
+                            <h1>ANALISTA </h1>
+                            <span>TECNOLOGIA</span>
+                        </div>
+                        <div class="gallery__price">
+                            <p>R$ 2300,00</p>
+                        </div>
+                    </div>
+
+                    <div class="sale">
+                        <div class="size">
+                            <div class="number">10</div>
+                            <div class="number">25</div>
+                            <div class="number">20</div>
+                        </div>
+                        <button class="btn">Marcar Entrevista</button>
+                    </div>
+                </article>
+                <article class="gallery__item">
+                    <div class="gallery__img">
+                        <img src="assets/img/fotfl.jpeg" alt="">
+                    </div>
+                    <div class="share">
+                        <div class="card__block">
+                            <a href="#"><i class='bx bxs-heart'></i></a>
+                        </div>
+                        <div class="card__block">
+                            <a href="#"><i class='bx bx-share-alt'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="gallery__desc">
+                        <div class="gallery__content">
+                            <h1>TÉCNICO </h1>
+                            <span>TECNOLOGIA</span>
+                        </div>
+                        <div class="gallery__price">
+                            <p>R$ 1900,00</p>
+                        </div>
+                    </div>
+
+                    <div class="sale">
+                        <div class="size">
+                            <div class="number">6</div>
+                            <div class="number">2</div>
+                            <div class="number">30</div>
+                        </div>
+                        <button class="btn">Marcar Entrevista</button>
+                    </div>
+                </article>
+                <article class="gallery__item">
+                    <div class="gallery__img">
+                        <img src="assets/img/fots.jpeg" alt="">
+                    </div>
+                    <div class="share">
+                        <div class="card__block">
+                            <a href="#"><i class='bx bxs-heart'></i></a>
+                        </div>
+                        <div class="card__block">
+                            <a href="#"><i class='bx bx-share-alt'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="gallery__desc">
+                        <div class="gallery__content">
+                            <h1>PUBLICITÁRIO</h1>
+                            <span>ESTÁGIO</span>
+                        </div>
+                        <div class="gallery__price">
+                            <p>R$ 800,00</p>
+                        </div>
+                    </div>
+
+                    <div class="sale">
+                        <div class="size">
+                            <div class="number">P</div>
+                            <div class="number numberOff">M</div>
+                            <div class="number numberOff">G</div>
+
+                        </div>
+                        <button class="btn">Marcar Entrevista</button>
+                    </div>
+                </article>
+                <article class="gallery__item">
+                    <div class="gallery__img">
+                        <img src="assets/img/fotc2.jpeg" alt="">
+                    </div>
+                    <div class="share">
+                        <div class="card__block">
+                            <a href="#"><i class='bx bxs-heart'></i></a>
+                        </div>
+                        <div class="card__block">
+                            <a href="#"><i class='bx bx-share-alt'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="gallery__desc">
+                        <div class="gallery__content">
+                            <h1>AUXILIAR</h1>
+                            <span>COMUNICAÇÃO</span>
+                        </div>
+                        <div class="gallery__price">
+                            <p>R$ 1200,90</p>
+                        </div>
+                    </div>
+
+                    <div class="sale">
+                        <div class="size">
+                            <div class="number numberOff">20</div>
+                            <div class="number">10</div>
+                            <div class="number">22</div>>
+                        </div>
+                        <button class="btn">Marcar Entrevista</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="section optin">
+        <div class="optin__content">
+            <h1>Quer saber de todas as suas vagas</h1>
+            <p>Informe seu melhor e-mail abaixo e receba todas as nossas vagas!</p>
+            <form action="">
+                <input type="text" placeholder="Informe seu e-mail">
+                <button class="btn">QUERO MINHAS VAGAS</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="popular section bd-container" id="collection">
+        <div class="titles">
+            <span class="section-subtitle">veja aqui a disponibilidade de nossos</span>
+            <h1 class="section-title">Fotógrafos</h1>
+        </div>
+        <div class="popular__content">
+            <div class="popular__shoes">
+                <article class="popular__card">
+                    <div class="popular__card__img">
+                        <img src="assets/img/fot1.jpeg" alt="shoe feminino">
+                    </div>
+
+                    <div class="share">
+                        <div class="card__block">
+                            <a href="#"><i class='bx bxs-heart'></i></a>
+                        </div>
+                        <div class="card__block">
+                            <a href="#"><i class='bx bx-share-alt'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="popular__card__content">
+                        <div class="size">
+                            <div class="number">3</div>
+                            <div class="number ">10</div>
+                            <div class="number">16</div>
+                            <div class="number">22</div>
+                            <div class="number numberOff">29</div>
+                        </div>
+
+                        <div class="card__desc">
+                            <h3>Buffet<span>Freelancer</span></h3>
+                            <p>R$ 100,00</p>
+                        </div>
+
+                        <div class="card__cart">
+                            <a href="#" class=" btn btn-outline">Marcar Entrevista</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="discount"> 20%<i class='bx bx-down-arrow-alt'></i></div>
+                    <div class="popular__card__img">
+                        <img src="assets/img/fot2.jpeg" alt="shoe feminino">
+                    </div>
+
+                    <div class="share">
+                        <div class="card__block">
+                            <a href="#"><i class='bx bxs-heart'></i></a>
+                        </div>
+                        <div class="card__block">
+                            <a href="#"><i class='bx bx-share-alt'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="popular__card__content">
+                        <div class="size">
+                            <div class="number">4</div>
+                            <div class="number">6</div>
+                            <div class="number">9</div>
+                            <div class="number">12</div>
+                            <div class="number">20</div>
+                        </div>
+
+                        <div class="card__desc">
+                            <h3>Administrativo<span>Estágio</span></h3>
+                            <p>R$ 1000,00</p>
+                        </div>
+
+                        <div class="card__cart">
+                            <a href="#" class=" btn btn-outline">Marcar Entrevista</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__card__img">
+                        <img src="assets/img/fot3.jpeg" alt="shoe feminino">
+                    </div>
+
+                    <div class="share">
+                        <div class="card__block">
+                            <a href="#"><i class='bx bxs-heart'></i></a>
+                        </div>
+                        <div class="card__block">
+                            <a href="#"><i class='bx bx-share-alt'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="popular__card__content">
+                        <div class="size">
+                            <div class="number">3</div>
+                            <div class="number numberOff">5</div>
+                            <div class="number numberOff">12</div>
+                            <div class="number">26</div>
+                            <div class="number numberOff">29</div>
+                        </div>
+
+                        <div class="card__desc">
+                            <h3>Atendente<span>Freelancer</span></h3>
+                            <p>R$ 1500,00</p>
+                        </div>
+
+                        <div class="card__cart">
+                            <a href="#" class=" btn btn-outline">Marcar Entrevista</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__card__img">
+                        <img src="assets/img/fot4.jpeg" alt="shoe feminino">
+                        <div class="block__lauch">lançamento</div>
+                    </div>
+
+                    <div class="share">
+                        <div class="card__block">
+                            <a href="#"><i class='bx bxs-heart'></i></a>
+                        </div>
+                        <div class="card__block">
+                            <a href="#"><i class='bx bx-share-alt'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="popular__card__content">
+                        <div class="size">
+                            <div class="number">11</div>
+                            <div class="number">15</div>
+                            <div class="number numberOff">18</div>
+                            <div class="number numberOff">22</div>
+                            <div class="number">26</div>
+                        </div>
+
+                        <div class="card__desc">
+                            <h3>Babá<span>Freelancer</span></h3>
+                            <p>R$ 250,00</p>
+                        </div>
+
+                        <div class="card__cart">
+                            <a href="#" class=" btn btn-outline">Marcar Entrevista</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__card__img">
+                        <img src="assets/img/fot5.jpeg" alt="shoe feminino">
+                        <div class="block__lauch">Novidade</div>
+                    </div>
+
+                    <div class="share">
+                        <div class="card__block">
+                            <a href="#"><i class='bx bxs-heart'></i></a>
+                        </div>
+                        <div class="card__block">
+                            <a href="#"><i class='bx bx-share-alt'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="popular__card__content">
+                        <div class="size">
+                            <div class="number">1</div>
+                            <div class="number">5</div>
+                            <div class="number numberOff">7</div>
+                            <div class="number numberOff">18</div>
+                            <div class="number">24</div>
+                        </div>
+
+                        <div class="card__desc">
+                            <h3>Garçom<span>Freelancer</span></h3>
+                            <p>R$ 300,00</p>
+                        </div>
+
+                        <div class="card__cart">
+                            <a href="#" class=" btn btn-outline">Marcar Entrevista</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__card__img">
+                        <img src="assets/img/fot6.jpeg" alt="shoe feminino">
+                        <div class="block__lauch">lançamento</div>
+                    </div>
+
+                    <div class="share">
+                        <div class="card__block">
+                            <a href="#"><i class='bx bxs-heart'></i></a>
+                        </div>
+                        <div class="card__block">
+                            <a href="#"><i class='bx bx-share-alt'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="popular__card__content">
+                        <div class="size">
+                            <div class="number">8</div>
+                            <div class="number numberOff">11</div>
+                            <div class="number">23</div>
+                            <div class="number">29</div>
+                            <div class="number numberOff">31</div>
+                        </div>
+
+                        <div class="card__desc">
+                            <h3>Auxiliar<span>Infantil</span></h3>
+                            <p>R$ 1200,00</p>
+                        </div>
+
+                        <div class="card__cart">
+                            <a href="#" class=" btn btn-outline">Marcar Entrevista</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__card__img">
+                        <img src="assets/img/fot7.png" alt="shoe feminino">
+                        <div class="block__lauch">lançamento</div>
+                    </div>
+
+                    <div class="share">
+                        <div class="card__block">
+                            <a href="#"><i class='bx bxs-heart'></i></a>
+                        </div>
+                        <div class="card__block">
+                            <a href="#"><i class='bx bx-share-alt'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="popular__card__content">
+                        <div class="size">
+                            <div class="number">11</div>
+                            <div class="number numberOff">16</div>
+                            <div class="number numberOff">18</div>
+                            <div class="number numberOff">22</div>
+                            <div class="number numberOff">27</div>
+                        </div>
+
+                        <div class="card__desc">
+                            <h3>Cuidadora de Idosos</span></h3>
+                            <p>R$ 1400,00</p>
+                        </div>
+
+                        <div class="card__cart">
+                            <a href="#" class=" btn btn-outline">Marcar Entrevista</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__card__img">
+                        <img src="assets/img/fot8.jpeg" alt="shoe feminino">
+                    </div>
+
+                    <div class="share">
+                        <div class="card__block">
+                            <a href="#"><i class='bx bxs-heart'></i></a>
+                        </div>
+                        <div class="card__block">
+                            <a href="#"><i class='bx bx-share-alt'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="popular__card__content">
+                        <div class="size">
+                            <div class="number">2</div>
+                            <div class="number numberOff">6</div>
+                            <div class="number">11</div>
+                            <div class="number">16</div>
+                            <div class="number">23</div>
+                        </div>
+
+                        <div class="card__desc">
+                            <h3>Assistente de Fotógrafo</span></h3>
+                            <p>R$ 200,00</p>
+                        </div>
+
+                        <div class="card__cart">
+                            <a href="#" class=" btn btn-outline">Marcar Entrevista</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="more">
+                <a href="#">coleção completa aqui</a>
+                <i class='bx bxs-right-arrow-alt'></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="optin section">
+        <div class="optin__content">
+            <h2>Receba novidades da <a href="#" class="logo">PixOrk<span>.</span></a></h2>
+            <p>Cadastre-se e seja um dos primeiros a saber de todas as novas vagas de empregos.</p>
+            <form action="">
+                <input type="text" placeholder="Informe seu e-mail">
+                <button class="btn">RECEBER INFORMAÇÕES</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="menu__footer section bd-container">
+        <div class="menu__footer__link">
+            <a href="#">
+                <h2>CATEGORIAS</h2>
+            </a>
+            <a href="#">Tecnologia</a>
+            <a href="#">Estágio</a>
+            <a href="#">Freelancer</a>
+        </div>
+
+        <div class="menu__footer__link">
+            <a href="#">
+                <h2>PRINCIPAIS</h2>
+            </a>
+            <a href="#">Técnico em contabilidade</a>
+            <a href="#">Engenheiro Da Computação</a>
+            <a href="#">Estágiario de Publicidade</a>
+            <a href="#">Engenheiro Civil</a>
+        </div>
+
+        <div class="menu__footer__link">
+            <a href="#">
+                <h2>LANÇAMENTOS</h2>
+            </a>
+            <a href="#">Telemarketing</a>
+            <a href="#">Análista em TI</a>
+            <a href="#">Tecnico em Informática</a>
+            <a href="#">Fotógrafo Jornalista</a>
+        </div>
+
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="footer__content bd-container">
+        <h1><a href="#" class="logo">PixOrk<span>.</span></a></h1>
+        <p>É um Front End de um e-commerce</p>
+        <p>*Todas as imagens utilizadas nesse projeto tem seus direitos autorais, não podendo ser usadas em um
+            projeto real.</p>
+    </div>
+    <div class="footer__social">
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+    </div>
+</footer>
+
+
+
+       
+        <!-- ===== IONICONS ===== -->
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        
+        <!-- ===== MAIN JS ===== -->
+        <script src="assets/js/apimain.js"></script>
+        <script src="assets/js/keyjquery.js"></script>
+        <script src="assets/js/teclightslider.js"></script>
+    </body>
+</html>
